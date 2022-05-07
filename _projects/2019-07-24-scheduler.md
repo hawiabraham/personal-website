@@ -7,8 +7,6 @@ featured_image: calendar1.jpg
 accent_color: '#4C60E6'
 gallery_images:
   - calendar1.jpg
-  - demo2.jpg
-  - calendar2.jpg
 ---
 
 Scheduler: A Mobile Calendar in C++
