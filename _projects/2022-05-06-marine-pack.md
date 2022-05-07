@@ -4,7 +4,7 @@ subtitle: A marine biology underwater recording project creating a music sample 
 date: 2022-05-06 00:00:00
 description: I currently organize and assist on a marine biology underwater recording project creating a music sample pack with marine life sounds. My tasks include building a website, documenting, building a database, and conducting field recordings. You can keep up with our research project at this website, programmed by me.
 featured_image: group_photo.jpg
-accent_color: '#F9CB40'
+accent_color: '#BCED09'
 gallery_images:
     - group_photo.jpg
     - week_2_3.jpg
