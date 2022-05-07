@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Made
+  site_title: Hawi Abraham
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -16,7 +16,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 100
-  tagline: A beautiful, minimal portfolio Jekyll theme
+  tagline: Made by Jekyll. Hosted by Netifly.
 
 hero_settings:
   background_image: /images/backgrounds/background-hero.svg
@@ -25,15 +25,15 @@ post_settings:
   grid_spacing: 10
 
 contact_settings:
-  email_address: ''
-  form_action: 'https://formspree.io/hello@jekyllthemes.io'
+  email_address: 'habraham@stanford.edu'
+  form_action: 'https://formspree.io/f/mknypdll'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Get in Touch'
 
 social_settings:
   facebook_url: ''
-  twitter_url: ''
+  twitter_url: 'twitter.com/hawiabraham'
   instagram_url: ''
   snapchat_url: ''
   youtube_url: ''
@@ -49,7 +49,7 @@ social_settings:
   dribbble_url: ''
   behance_url: ''
   deviantart_url: ''
-  github_url: ''
+  github_url: 'github.com/hawiabraham'
   reddit_url: ''
   flickr_url: ''
   etsy_url: ''
@@ -57,7 +57,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'linkedin.com/in/hawiabraham'
 
 color_settings:
   background_color: '#ffffff'
