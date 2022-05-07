@@ -19,7 +19,7 @@ footer_settings:
   tagline: Made by Jekyll. Hosted by Netifly.
 
 hero_settings:
-  background_image: 
+  background_image: /images/backgrounds/star.png
 
 post_settings:
   grid_spacing: 10
