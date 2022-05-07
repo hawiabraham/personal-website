@@ -3,10 +3,9 @@ title: Scheduler
 subtitle: A mobile calendar that stores and modifies events to evaluate students’ skills.
 date: 2022-05-06 00:00:00
 description: A mobile calendar that stores and modifies events to evaluate students’ skills. The assignment tests mastery of classes, Big O analysis, and nested data structures. I developed several test cases to ensure program solution was functional.
-featured_image: calendar1.jpg
+featured_image: 
 accent_color: '#4C60E6'
 gallery_images:
-  - calendar1.jpg
 ---
 
 Scheduler: A Mobile Calendar in C++
