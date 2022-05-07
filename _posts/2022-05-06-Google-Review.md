@@ -1,5 +1,5 @@
 ---
-title: Review: Google Project Management Certificate
+title: Review. Google Project Management Certificate
 date: 2022-05-06 00:00:00
 description: I recently completed an exciting new offering by Google, a series of career development courses on Coursera. I decided to give their Project Management Certificate a try.
 featured_image: '/images/coursera.jpg'
