@@ -1,13 +1,9 @@
 ---
 title: Reflecting on my experience at Addis Coder
-subtitle: 
 date: 2022-05-06 00:00:00
 description: Summer 2019, I volunteered at AddisCoder, a summer program designed to introduce high schoolers to computer science.
-featured_image: addis_coder.jpg
+featured_image:  '/images/addis_coder.jpg'
 accent_color: '#4C60E6'
-gallery_images:
-  - addis_coder.jpg
----
 
 Summer 2019, I volunteered at AddisCoder, a summer program designed to introduce high schoolers to computer science. AddisCoder, located in Ethiopia, is a non-profit summer program that introduces Ethiopian high school students to advanced programming and algorithms. Many students in Ethiopia lack access to technology and exposure to computer science. AddisCoder is one of the only programs working to bridge this gap. 
 
