@@ -8,7 +8,5 @@ accent_color: '#4C60E6'
 gallery_images:
     - scheduler.jpeg
 ---
-<object data="images/Personal_Project_Writeup.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="images/Personal_Project_Writeup.pdf"></embed>
-</object>
+
 
