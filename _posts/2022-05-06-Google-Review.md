@@ -4,6 +4,7 @@ date: 2022-05-06 00:00:00
 description: I recently completed an exciting new offering by Google, a series of career development courses on Coursera. I decided to give their Project Management Certificate a try. 
 featured_image: '/images/coursera.jpg'
 ---
+
 I recently completed an exciting new offering by Google, a series of career development courses on Coursera. I decided to give their Project Management Certificate a try. Here’s my review:
 
 I was thoroughly impressed with the Project Management Certificate and learned a significant amount of material in less than a month. The certificate entails six courses, each on a different aspect of program management. Each course is structured similarly. They all entail a series of videos, readings, discussions, assignments, and quizzes. To pass the course, you must pass each assignment and quiz at the end of the week. The certificate is designed to be completed in six to nine months but it is possible to complete in one month if you commit to it full time.
