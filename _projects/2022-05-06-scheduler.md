@@ -30,7 +30,8 @@ struct Event {
 Your class should have the following public methods:
  **Method**       | **Description**  
  ------------- |-------------
- addEvent(Event event)| This function takes in an event, adds an event to a schedule, and ensures that no duplicates are added. | isEqual(Event e1, Event e2) |This function takes in two events and checks if the two events share the same date.
+ addEvent(Event event)|This function takes in an event, adds an event to a schedule, and ensures that no duplicates are added.
+isEqual(Event e1, Event e2)|This function takes in two events and checks if the two events share the same date.
 removeEvent(Event event)|This function takes in an event and removes an event from the schedule.
 getCurrentSchedule(Event curDate)|This function takes in a date and returns a collection of events that share the same date.
 printCurrentSchedule(Event curDate)|This function takes in a date and prints all the events that share the same date.
@@ -148,3 +149,121 @@ void Scheduler::printCurrentSchedule(Event curDate) {
 }
 ```
 Solution 2 uses a Queue of Events to store the schedule. To access each element, the student must use a while loop that ends when the Queue is empty and dequeues an element in the beginning of the loop. Additionally, it is much more difficult to access elements in the middle of the queue. It requires displacing the elements and creating a copy to retain the original elements. Despite these implementation drawbacks, the queue is slightly faster to us in Big-O analysis. 
+**Function** |   **Big-O**
+addEvent  |  O(n)
+isEqual |   O(1)
+removeEvent  |  O(n)
+getCurrentSchedule  |  O(n)
+printCurrentSchedule  |  O(n)
+
+## Test Cases
+```c++
+STUDENT_TEST("addEvent, regular") {
+   Event event = {"Birthday", 5, 23, 2002};
+   Scheduler planner;
+   planner.addEvent(event);
+   Queue<Event> result;
+   Queue<Event> cur_schedule = planner.getCurrentSchedule(event);
+   result.enqueue(event);
+
+   while (!result.isEmpty()) {
+       Event event1 = result.dequeue();
+       Event event2 = cur_schedule.dequeue();
+       EXPECT(planner.isEqual(event1, event2) && event1.name == event2.name);
+   }
+
+}
+
+STUDENT_TEST("addEvent, duplicate event") {
+   Event event = {"Birthday", 5, 23, 2002};
+   Scheduler planner;
+   planner.addEvent(event);
+   planner.addEvent(event);
+   Queue<Event> result;
+   Queue<Event> cur_schedule = planner.getCurrentSchedule(event);
+   result.enqueue(event);
+   while (!result.isEmpty()) {
+       Event event1 = result.dequeue();
+       Event event2 = cur_schedule.dequeue();
+       EXPECT(planner.isEqual(event1, event2) && event1.name == event2.name);
+   }
+
+}
+
+STUDENT_TEST("isEqual, true example") {
+   Event event1 = {"Birthday", 5, 23, 2002};
+   Event event2 = {"Birthday", 5, 23, 2002};
+   Scheduler planner;
+   EXPECT(planner.isEqual(event1, event2));
+}
+
+STUDENT_TEST("isEqual, false example") {
+   Event event1 = {"Birthday", 5, 23, 2002};
+   Event event2 = {"Mom Birthday", 5, 24, 2002};
+   Scheduler planner;
+   EXPECT(!planner.isEqual(event1, event2));
+}
+
+STUDENT_TEST("removeEvent") {
+   Event birthday = {"Birthday", 5, 23, 2002};
+   Event mothers_day = {"Mother's Day", 5, 15, 2021};
+   Scheduler planner;
+   planner.addEvent(birthday);
+   planner.addEvent(mothers_day);
+   planner.removeEvent(mothers_day);
+   Queue<Event> result = {};
+   Queue<Event> cur_schedule = planner.getCurrentSchedule(mothers_day);
+
+   while (!result.isEmpty()) {
+       Event event1 = result.dequeue();
+       Event event2 = cur_schedule.dequeue();
+       EXPECT(!planner.isEqual(event1, event2) && event1.name == event2.name);
+   }
+}
+
+STUDENT_TEST("printCurrentSchedule") {
+   Event birthday = {"Birthday", 5, 23, 2021};
+   Event math_test = {"Math Test", 5, 23, 2021};
+   Event mothers_day = {"Mother's Day", 5, 15, 2021};
+   Event cur_date = {"Cur Date", 5, 23, 2021};
+   Scheduler planner;
+   planner.addEvent(birthday);
+   planner.addEvent(mothers_day);
+   planner.addEvent(math_test);
+   planner.printCurrentSchedule(cur_date);
+}
+```
+
+## Problem Motivation
+**Conceptual**
+
+This problem is a great way to demonstrate mastery of classes and implementing abstract data structures. This problem requires an understanding of:
+
+* Abstract data structures and the tradeoffs between different data structures
+* How to define and access member functions and variables in a class
+* How to loop through elements of a data structure
+* The ability to manipulate nested data structures
+* Passing data structures by reference
+
+Students will work through navigating and interacting with both public and private member functions and variables. Students will also have to determine the proper data structure to use to manage a Schedule. This problem combines and tests a range of skills learned in CS106B. It is great for assessing students’ ability to apply different concepts learned throughout the course of the class.
+
+**Personal**
+
+I was interested in this project because I was reflecting on how busy I was in the final weeks of the quarter and how I rely on programs like Google Calendar to manage my time, such as my class times, gym appointments, and club meetings. I thought it would be an interesting problem to implement and a relatable one for Stanford students. Additionally, I often struggle with understanding when to use certain data structures. While I understand how to use them, I find knowing when to apply them very challenging. This problem helped me refine my understanding of ADTs, because, through brainstorming this problem, I was able to determine which data structure made this possible to implement. Other structures I explored were linked lists, priority queues, and maps. I learned that just because it is possible to implement a program with a certain data structure doesn’t mean it is the smartest choice.
+
+## Concept Mastery and Common Misconceptions
+
+Common challenges students can run into include:
+
+* Ensuring that no duplicates are added to the data structure
+* Difficulty choosing an efficient data structure
+* Understanding the Event struct
+* Writing test cases
+
+To ensure that no duplicates are added, the student must loop through all the elements of the data structure and compare whether the new event is equal to an existing one. It is difficult to implement this logic as it requires use of the function isEqual to compare the two elements. When working with a Queue it can be especially challenging to find a way to remove an element while retaining the other elements.
+
+It may be challenging for a student to find an efficient data structure to use especially if the student has less familiarity with less common structures like Stacks, Queues, and Maps. Students may feel averse towards data structures that they are less comfortable with which can cause them to have a difficult time writing this assignment.
+
+The Event struct is provided starter code for the student. The student may run into challenges writing test cases because the Event struct is a new collection. QT Creator raises many errors when trying to compare two events. It is important to access the data within the struct or utilize an existing function like isEqual to compare two elements and write effective test cases.
+
+Common bugs that arise are mostly related to comparing two Events.
