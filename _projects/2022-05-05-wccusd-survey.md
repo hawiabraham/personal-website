@@ -10,7 +10,7 @@ gallery_images:
     - wccusd1.jpg
     - wccusd2.jpg
 ---
-##WCCUSD School Board Presentation
+## WCCUSD School Board Presentation
 
 Presented before the school board on the findings of the YouthTruth survey and *Get Involved*, an event designed to connect students with community resources, based on student interest from the survey. 
 
@@ -18,6 +18,7 @@ Presented before the school board on the findings of the YouthTruth survey and *
 
 <iframe width="700" height="500" frameborder="0" allowfullscreen="true" src="https://richmond.granicus.com/MediaPlayer.php?view_id=15&clip_id=4436&starttime=undefined&stoptime=undefined&autostart=0&embed=1"></iframe>
 
-##YouthTruth data of over 10,000 West Contra Costa Unified School District community voices informs the district’s Return to School Plan
+## YouthTruth data of over 10,000 West Contra Costa Unified School District community voices informs the district’s Return to School Plan
 ![](/images/zoom.jpg)
-<https://youthtruthsurvey.org/youthtruth-data-of-over-10000-west-contra-costa-unified-school-district-community-voices-informs-the-districts-disticts-return-to-school-plan/>
+
+[https://youthtruthsurvey.org/youthtruth-data-of-over-10000-west-contra-costa-unified-school-district-community-voices-informs-the-districts-disticts-return-to-school-plan/]
