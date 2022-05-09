@@ -19,6 +19,9 @@ Presented before the school board on the findings of the YouthTruth survey and *
 <iframe width="700" height="500" frameborder="0" allowfullscreen="true" src="https://richmond.granicus.com/MediaPlayer.php?view_id=15&clip_id=4436&starttime=undefined&stoptime=undefined&autostart=0&embed=1"></iframe>
 
 ## YouthTruth data of over 10,000 West Contra Costa Unified School District community voices informs the district’s Return to School Plan
-![](/images/zoom.jpg)
+{% include post-components/video.html
+    url = "https://www.youtube.com/watch?v=w3MRclFuqNE&feature=emb_err_woyt&ab_channel=WestContraCostaUSD"
+    full_width = true
+%}
 
-[https://youthtruthsurvey.org/youthtruth-data-of-over-10000-west-contra-costa-unified-school-district-community-voices-informs-the-districts-disticts-return-to-school-plan/]
+(YouthTruth Article)[https://youthtruthsurvey.org/youthtruth-data-of-over-10000-west-contra-costa-unified-school-district-community-voices-informs-the-districts-disticts-return-to-school-plan/]
