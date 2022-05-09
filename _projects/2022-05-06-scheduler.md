@@ -29,7 +29,7 @@ struct Event {
 
 Your class should have the following public methods:
  **Method**       | **Description**  
- ------------- |-------------
+--------------- |-----------------------------------------------------------------------------------------------------------------
 addEvent(Event event) | This function takes in an event, adds an event to a schedule, and ensures that no duplicates are added.
 isEqual(Event e1, Event e2) | This function takes in two events and checks if the two events share the same date.
 removeEvent(Event event) | This function takes in an event and removes an event from the schedule.
@@ -149,12 +149,13 @@ void Scheduler::printCurrentSchedule(Event curDate) {
 }
 ```
 Solution 2 uses a Queue of Events to store the schedule. To access each element, the student must use a while loop that ends when the Queue is empty and dequeues an element in the beginning of the loop. Additionally, it is much more difficult to access elements in the middle of the queue. It requires displacing the elements and creating a copy to retain the original elements. Despite these implementation drawbacks, the queue is slightly faster to us in Big-O analysis. 
+
 **Function** |   **Big-O**
  ------------- |-------------
 addEvent  |  O(n)
-isEqual |   O(1)
+isEqual  |  O(1)
 removeEvent  |  O(n)
-getCurrentSchedule  |  O(n)
+etCurrentSchedule  |  O(n)
 printCurrentSchedule  |  O(n)
 
 ## Test Cases
