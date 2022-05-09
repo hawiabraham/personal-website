@@ -30,11 +30,11 @@ struct Event {
 Your class should have the following public methods:
  **Method**       | **Description**  
  ------------- |-------------
- addEvent(Event event)|This function takes in an event, adds an event to a schedule, and ensures that no duplicates are added.
-isEqual(Event e1, Event e2)|This function takes in two events and checks if the two events share the same date.
-removeEvent(Event event)|This function takes in an event and removes an event from the schedule.
-getCurrentSchedule(Event curDate)|This function takes in a date and returns a collection of events that share the same date.
-printCurrentSchedule(Event curDate)|This function takes in a date and prints all the events that share the same date.
+addEvent(Event event) | This function takes in an event, adds an event to a schedule, and ensures that no duplicates are added.
+isEqual(Event e1, Event e2) | This function takes in two events and checks if the two events share the same date.
+removeEvent(Event event) | This function takes in an event and removes an event from the schedule.
+getCurrentSchedule(Event curDate) | This function takes in a date and returns a collection of events that share the same date.
+printCurrentSchedule(Event curDate) | This function takes in a date and prints all the events that share the same date.
 
 ## Solution 1: Implementing Scheduler Through A Vector
 
@@ -150,6 +150,7 @@ void Scheduler::printCurrentSchedule(Event curDate) {
 ```
 Solution 2 uses a Queue of Events to store the schedule. To access each element, the student must use a while loop that ends when the Queue is empty and dequeues an element in the beginning of the loop. Additionally, it is much more difficult to access elements in the middle of the queue. It requires displacing the elements and creating a copy to retain the original elements. Despite these implementation drawbacks, the queue is slightly faster to us in Big-O analysis. 
 **Function** |   **Big-O**
+ ------------- |-------------
 addEvent  |  O(n)
 isEqual |   O(1)
 removeEvent  |  O(n)
@@ -159,7 +160,7 @@ printCurrentSchedule  |  O(n)
 ## Test Cases
 ```c++
 STUDENT_TEST("addEvent, regular") {
-   Event event = {"Birthday", 5, 23, 2002};
+   Event event = {"Birthday", 01, 01, 2002};
    Scheduler planner;
    planner.addEvent(event);
    Queue<Event> result;
@@ -175,7 +176,7 @@ STUDENT_TEST("addEvent, regular") {
 }
 
 STUDENT_TEST("addEvent, duplicate event") {
-   Event event = {"Birthday", 5, 23, 2002};
+   Event event = {"Birthday", 01, 01, 2002};
    Scheduler planner;
    planner.addEvent(event);
    planner.addEvent(event);
@@ -191,21 +192,21 @@ STUDENT_TEST("addEvent, duplicate event") {
 }
 
 STUDENT_TEST("isEqual, true example") {
-   Event event1 = {"Birthday", 5, 23, 2002};
-   Event event2 = {"Birthday", 5, 23, 2002};
+   Event event1 = {"Birthday", 01, 01, 2002};
+   Event event2 = {"Birthday", 01, 01, 2002};
    Scheduler planner;
    EXPECT(planner.isEqual(event1, event2));
 }
 
 STUDENT_TEST("isEqual, false example") {
-   Event event1 = {"Birthday", 5, 23, 2002};
+   Event event1 = {"Birthday", 01, 01, 2002};
    Event event2 = {"Mom Birthday", 5, 24, 2002};
    Scheduler planner;
    EXPECT(!planner.isEqual(event1, event2));
 }
 
 STUDENT_TEST("removeEvent") {
-   Event birthday = {"Birthday", 5, 23, 2002};
+   Event birthday = {"Birthday", 01, 01, 2002};
    Event mothers_day = {"Mother's Day", 5, 15, 2021};
    Scheduler planner;
    planner.addEvent(birthday);
@@ -222,10 +223,10 @@ STUDENT_TEST("removeEvent") {
 }
 
 STUDENT_TEST("printCurrentSchedule") {
-   Event birthday = {"Birthday", 5, 23, 2021};
-   Event math_test = {"Math Test", 5, 23, 2021};
+   Event birthday = {"Birthday", 01, 01, 2021};
+   Event math_test = {"Math Test", 01, 01, 2021};
    Event mothers_day = {"Mother's Day", 5, 15, 2021};
-   Event cur_date = {"Cur Date", 5, 23, 2021};
+   Event cur_date = {"Cur Date", 01, 01, 2021};
    Scheduler planner;
    planner.addEvent(birthday);
    planner.addEvent(mothers_day);
