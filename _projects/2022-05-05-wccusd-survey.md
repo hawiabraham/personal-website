@@ -23,5 +23,4 @@ Presented before the school board on the findings of the YouthTruth survey and *
 ![](/images/zoom.jpg)
 
 <iframe width="700" height="500" src="https://www.youtube.com/embed/w3MRclFuqNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Youth Truth Article](https://youthtruthsurvey.org/youthtruth-data-of-over-10000-west-contra-costa-unified-school-district-community-voices-informs-the-districts-disticts-return-to-school-plan/)
+#### [Youth Truth Article](https://youthtruthsurvey.org/youthtruth-data-of-over-10000-west-contra-costa-unified-school-district-community-voices-informs-the-districts-disticts-return-to-school-plan/)
