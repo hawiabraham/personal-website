@@ -11,6 +11,7 @@ gallery_images:
     - wccusd2.jpg
 ---
 **WCCUSD School Board Presentation**
+
 Presented before the school board on the findings of the YouthTruth survey and *Get Involved*, an event designed to connect students with community resources, based on student interest from the survey. 
 
 (For the presentation, skip to 5:23)
