@@ -8,5 +8,21 @@ accent_color: '#4C60E6'
 gallery_images:
     - scheduler.jpeg
 ---
+*An archive of my final project in CS 106B (Programming Methodologies), Spring 2021.*
+Stanford students manage many responsibilities on a daily basis. From school to our own personal lives, we all need systems to help us manage our daily tasks. Software like Google Calendar or Apple Calendar helps users keep track of their daily responsibilities. In this problem, you will implement your own calendar system using classes and abstract data types.
+
+You will implement the **Scheduler** class which manages a collection of events using a data structure of your choice. **Scheduler** should be able to fully remove and add elements, as well as collect all events that share the same date. You are free to add any private member variables or methods that you think are necessary.
+
+We have implemented the **Event** struct for you.
+
+```c++
+struct Event {
+    string name;   
+    int month;   
+    int date;   
+    int year;
+};
+```
+
 
 
