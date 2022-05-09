@@ -238,7 +238,8 @@ STUDENT_TEST("printCurrentSchedule") {
 ```
 
 ## Problem Motivation
-###Conceptual
+
+**Conceptual**
 
 This problem is a great way to demonstrate mastery of classes and implementing abstract data structures. This problem requires an understanding of:
 
@@ -250,7 +251,7 @@ This problem is a great way to demonstrate mastery of classes and implementing a
 
 Students will work through navigating and interacting with both public and private member functions and variables. Students will also have to determine the proper data structure to use to manage a Schedule. This problem combines and tests a range of skills learned in CS106B. It is great for assessing students’ ability to apply different concepts learned throughout the course of the class.
 
-###Personal
+**Personal**
 
 I was interested in this project because I was reflecting on how busy I was in the final weeks of the quarter and how I rely on programs like Google Calendar to manage my time, such as my class times, gym appointments, and club meetings. I thought it would be an interesting problem to implement and a relatable one for Stanford students. Additionally, I often struggle with understanding when to use certain data structures. While I understand how to use them, I find knowing when to apply them very challenging. This problem helped me refine my understanding of ADTs, because, through brainstorming this problem, I was able to determine which data structure made this possible to implement. Other structures I explored were linked lists, priority queues, and maps. I learned that just because it is possible to implement a program with a certain data structure doesn’t mean it is the smartest choice.
 
