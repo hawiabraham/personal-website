@@ -20,8 +20,8 @@ Presented before the school board on the findings of the YouthTruth survey and *
 
 ## YouthTruth data of over 10,000 West Contra Costa Unified School District community voices informs the district’s Return to School Plan
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=w3MRclFuqNE"
-" target="_blank"><img src="http://img.youtube.com/vi/w3MRclFuqNE/0.jpg" 
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=w3MRclFuqNE"
+" target="_blank"><img src="https://img.youtube.com/vi/w3MRclFuqNE/0.jpg" 
 alt="" width="700" height="500" border="10"/></a>
 
 [Youth Truth Article](https://youthtruthsurvey.org/youthtruth-data-of-over-10000-west-contra-costa-unified-school-district-community-voices-informs-the-districts-disticts-return-to-school-plan/)
