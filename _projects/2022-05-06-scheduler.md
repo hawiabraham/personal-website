@@ -2,7 +2,7 @@
 title: Scheduler
 subtitle: A mobile calendar that stores and modifies events to evaluate students’ skills.
 date: 2022-05-06 00:00:00
-description: A mobile calendar that stores and modifies events to evaluate students’ skills. The assignment tests mastery of classes, Big O analysis, and nested data structures. I developed several test cases to ensure program solution was functional.
+description: A mobile calendar that stores and modifies events to evaluate students’ skills. The assignment tests mastery of classes, Big O analysis, and nested data structures.
 featured_image: scheduler.jpeg
 accent_color: '#4C60E6'
 gallery_images:
@@ -28,22 +28,14 @@ struct Event {
 ```
 
 Your class should have the following public methods:
+
 **Method** |   **Description**
  ------------- |-------------
 addEvent(Event event)  |  This function takes in an event, adds an event to a schedule, and ensures that no duplicates are added.
 isEqual(Event e1, Event e2)  |  This function takes in two events and checks if the two events share the same date.
 removeEvent(Event event)  |  This function takes in an event and removes an event from the schedule.
-getCurrentSchedule(Event curDate)  |  This function takes in a date and returns a collection of events that share the same date.
+etCurrentSchedule(Event curDate)  |  This function takes in a date and returns a collection of events that share the same date.
 printCurrentSchedule(Event curDate)  |  This function takes in a date and prints all the events that share the same date.
-
-
-**Method** |   **Description**
- ------------- |-------------
-addEvent(Event event)  |  This function takes in an event, adds an event to a schedule, and ensures that no duplicates are added.
-isEqual(Event e1, Event e2)  |  O(1)
-removeEvent(Event event)  |  O(n^2)
-etCurrentSchedule(Event curDate)  |  O(n^2)
-printCurrentSchedule(Event curDate)  |  O(n^2)
 
 ## Solution 1: Implementing Scheduler Through A Vector
 
