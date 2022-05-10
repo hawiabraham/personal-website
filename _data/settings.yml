@@ -12,6 +12,8 @@ menu_settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'Thanks'
+      url: '/thanks/'
 
 footer_settings:
   logo_image:
