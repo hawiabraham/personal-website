@@ -12,8 +12,8 @@ menu_settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Thanks'
-      url: '/thanks/'
+    - title: 'Resume'
+      url:'https://docs.google.com/document/d/1jOoLXSR98nncgBvoi4o-ywVULPV8Tqa4/edit?usp=sharing&ouid=114007021204922631848&rtpof=true&sd=true'
 
 footer_settings:
   logo_image:
