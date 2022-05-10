@@ -1,9 +1,9 @@
 basic_settings:
-  site_title: Hawi Abraham
+  site_title: Hawi
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: "images/favicon.png"
+  logo_image:
   logo_width: 100
 
 menu_settings:
