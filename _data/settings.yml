@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Hawi
+  site_title:
   favicon_image: /images/favicon.png
 
 header_settings:
