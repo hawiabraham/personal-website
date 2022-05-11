@@ -21,7 +21,7 @@ footer_settings:
   tagline: Made by Jekyll. Hosted by Netfily.
 
 hero_settings:
-  background_image: 
+  background_image:
 
 post_settings:
   grid_spacing: 10
@@ -72,7 +72,7 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Helvetica:400,700" rel="stylesheet">'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Ubuntu:400,700" rel="stylesheet">'
   title_font: 'Rubik, sans-serif'
   body_font: '"Ubuntu", sans-serif'
   regular_weight: 400
