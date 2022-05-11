@@ -13,7 +13,7 @@ menu_settings:
     - title: 'Blog'
       url: '/blog/'
     - title: 'Resume'
-      url: 'https://drive.google.com/file/d/17EqXbKHJ4RJbKBkeTqjz4hZG90ZapDia/view?usp=sharing'
+      url: /images/Resume.pdf
 
 footer_settings:
   logo_image:
