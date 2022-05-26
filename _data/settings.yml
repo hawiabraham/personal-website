@@ -13,9 +13,7 @@ menu_settings:
     - title: 'Blog'
       url: '/blog/'
     - title: 'About'
-        subfolderitems:
-            title: 'About'
-            url: '/about'
+      url: '/about/'
     - title: 'Resume'
       url: 'https://drive.google.com/file/d/1F3Lu55cu5RT2d-6ueN5qlORdgZSX6w8z/view?usp=sharing'
 
