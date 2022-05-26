@@ -12,8 +12,6 @@ menu_settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'About'
-      url: '/about/'
     - title: 'Resume'
       url: 'https://drive.google.com/file/d/1F3Lu55cu5RT2d-6ueN5qlORdgZSX6w8z/view?usp=sharing'
 
