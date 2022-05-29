@@ -3,7 +3,7 @@ basic_settings:
   favicon_image: /images/untitled.png
 
 header_settings:
-  logo_image: /images/untitled.png
+  logo_image:
   logo_width: 100
 
 menu_settings:
@@ -16,7 +16,7 @@ menu_settings:
       url: 'https://drive.google.com/file/d/1F3Lu55cu5RT2d-6ueN5qlORdgZSX6w8z/view?usp=sharing'
 
 footer_settings:
-  logo_image: untitled.png
+  logo_image:
   logo_width: 100
   tagline: Made by Jekyll. Hosted by Netfily.
 
