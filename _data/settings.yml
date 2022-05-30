@@ -10,6 +10,8 @@ menu_settings:
   menu_items:
     - title: 'Projects'
       url: '/'
+    - title: 'Blog'
+      url: '/blog/'
     - title: 'Resume'
       url: 'https://drive.google.com/file/d/1F3Lu55cu5RT2d-6ueN5qlORdgZSX6w8z/view?usp=sharing'
 
