@@ -12,8 +12,6 @@ menu_settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Resume'
-      url: 'https://www.figma.com/proto/neYVljY1Ij6J6ZiuXhkBNU/Hawi-Resume?node-id=201%3A30&scaling=min-zoom&page-id=116%3A5'
 
 footer_settings:
   logo_image:
