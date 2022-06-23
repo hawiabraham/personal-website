@@ -71,8 +71,8 @@ color_settings:
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Ubuntu:400,700" rel="stylesheet">'
-  title_font: 'Gotham, sans-serif'
-  body_font: '"Gotham", sans-serif'
+  title_font: 'Helvetica, sans-serif'
+  body_font: '"Helvetica", sans-serif'
   regular_weight: 400
   bold_weight: 700
   site_title:
