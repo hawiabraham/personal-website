@@ -8,6 +8,6 @@ accent_color: '#FF715B'
 gallery_images:
     - soundmuse-logo.png
 ---
-# JackTrip Education
+# soundmuse
 
 Coming soon!
