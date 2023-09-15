@@ -8,10 +8,10 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
-      url: '/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'LinkedIn'
+      url: 'linkedin.com/in/hawiabraham'
+    - title: 'GitHub'
+      url: 'github.com/hawiabraham'
 
 footer_settings:
   logo_image:
