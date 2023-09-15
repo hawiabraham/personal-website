@@ -4,11 +4,10 @@ subtitle: Volunteered at AddisCoder, an Ethiopian summer program designed to int
 date: 2022-05-05 00:00:00
 description: Taught first-time students advanced programming and algorithms, providing students with individual support. Also served as a teaching assistant, helped create exercises, and provided mini-lectures to ~40 students in lab.
 
-
-featured_image: addiscoder.jpg
+featured_image: addis_coder.jpg
 accent_color: '#FF715B'
 gallery_images:
-    - addiscoder.jpg
+    - addis_coder.jpg
 ---
 ## WCCUSD School Board Presentation
 
