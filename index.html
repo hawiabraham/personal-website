@@ -44,7 +44,7 @@ featured_image: /images/social.jpg
 			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
 
 			<article class="project__preview">
-				<h3 class="project__title"><a href="{{ project.url | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
+				<h3 class="project__title"><a style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
 					{% for image in project.gallery_images %}
@@ -83,7 +83,7 @@ featured_image: /images/social.jpg
 				{% endfor %}
 			</div>
 
-			<a href="{{ '/blog' | relative_url }}" class="action-bottom button--text--accent --right">All Posts</a>
+			<!--<a href="{{ '/blog' | relative_url }}" class="action-bottom button--text--accent --right">All Posts</a> -->
 		</div>
 	</section>
 </div>
