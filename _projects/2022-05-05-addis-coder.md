@@ -1,8 +1,9 @@
 ---
 title: Teaching Assistant at Addis Coder
-subtitle: A district-wide student survey on school climate and culture. 
+subtitle: Volunteered at AddisCoder, an Ethiopian summer program designed to introduce high schoolers to computer science.  
 date: 2022-05-05 00:00:00
-description: I organized and administered a district-wide student survey on school climate and culture. I analyzed and presented data to school officials and worked to find creative solutions to common student concerns. Lastly, I presented before the school board and got the survey approved as the new mode of student assessment. 
+description: Taught first-time students advanced programming and algorithms, providing students with individual support. Also served as a teaching assistant, helped create exercises, and provided mini-lectures to ~40 students in lab.
+
 
 featured_image: addiscoder.jpg
 accent_color: '#FF715B'
