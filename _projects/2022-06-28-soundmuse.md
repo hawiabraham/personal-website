@@ -9,5 +9,5 @@ gallery_images:
     - soundmuse-logo.png
 ---
 # soundmuse
-
+<img src="{{ '/images/profile.jpg' }}" alt="">
 
