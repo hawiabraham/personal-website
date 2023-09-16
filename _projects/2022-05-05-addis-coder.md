@@ -8,6 +8,7 @@ featured_image: addis_coder.jpg
 accent_color: '#FF715B'
 gallery_images:
     - addis_coder.jpg
+    - addis1.jpg
 ---
 ## WCCUSD School Board Presentation
 
