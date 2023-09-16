@@ -2,7 +2,7 @@
 title: Marine Biology Sound Pack
 subtitle: A marine biology underwater recording project creating a music sample pack with marine life sounds.
 date: 2022-05-06 00:00:00
-description: A marine biology underwater recording project creating a music sample pack with over 300 marine life sounds. I spearheaded an archive of the project by building a website using HTML and CSS and created a project roadmap for the research project.
+description: Collaborated on a marine biology underwater recording project creating a music sample pack with over 300 marine life sounds. I spearheaded an archive of the project by building a website using HTML and CSS and created a project roadmap for the research project, delegate tasks, and assess capacity.
 featured_image: group_photo.jpg
 accent_color: '#BCED09'
 gallery_images:
