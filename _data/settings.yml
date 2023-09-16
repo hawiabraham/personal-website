@@ -8,7 +8,7 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'X'
+    - title: 'Twitter'
       url: 'https://twitter.com/hawiabraham'
     - title: 'LinkedIn'
       url: 'https://linkedin.com/in/hawiabraham'
